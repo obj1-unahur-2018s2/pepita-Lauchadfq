@@ -24,16 +24,23 @@ object pepon {
 // ayuda: conviene ponerle dos atributos
 object pipa {
 
-	var gramos = 0
+	var gramosTotales = 0
+	var kmTotales = 0
 
+	method volar(kms) {
+		kmTotales = kmTotales + kms
+	}
+	
 	method kmRecorrido() {
+		return kmTotales
 	}
 
 	method gramosIngeridos() {
+		
 	}
 
 	method comer(cosa, gramos) {
-		self.gramos = gramos
+		
 	}
 
 	method haceLoQueQuieras() {
