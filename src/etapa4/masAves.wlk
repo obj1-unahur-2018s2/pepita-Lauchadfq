@@ -35,12 +35,12 @@ object pipa {
 		return kmTotales
 	}
 
-	method gramosIngeridos() {
-		
+	method comer(cosa, gramos) {
+		gramosTotales = gramosTotales + gramos
 	}
 
-	method comer(cosa, gramos) {
-		
+	method gramosIngeridos() {
+		return gramosTotales
 	}
 
 	method haceLoQueQuieras() {
